@@ -30,22 +30,20 @@ The raw data contains missing values, invalid records, and inconsistent formatti
 
 ## Project Structure
 business-sales-analytics/
-├── data/
-│ ├── raw/                    # Original raw dataset (unchanged)
-│ ├── processed/              # Cleaned working dataset
-│ └── final/                  # Dashboard-ready dataset
-├── python/
-│ ├── 00_data_understanding.py
-│ ├── 01_data_cleaning.py
-│ ├── 02_load_to_sql.py
-│ └── 03_export_final_data.py
-├── sql/
-│ └── 01_sales_analysis.sql
-├── dashboard/
-│ └── sales_dashboard.pbix
-├── insights/
-│ └── business_insights.md
-└── README.md
+- data/
+  - raw/                    # Original raw dataset (unchanged)
+  - processed/              # Cleaned working dataset
+  - final/                  # Dashboard-ready dataset
+- python/
+  - 00_data_understanding.py
+  - 01_data_cleaning.py
+  - 02_load_to_sql.py
+  - 03_export_final_data.py
+- sql/
+  - 01_sales_analysis.sql
+- dashboard/
+  - sales_dashboard.pbix
+- README.md
 
 ---
 
@@ -91,7 +89,7 @@ A Power BI dashboard was created with:
 - Top Customers  
 
 Dashboard file:
-dashboard/sales_dashboard.pbix
+![Sales Dashboard](dashboard/dashboard_overview.png)
 
 ---
 
@@ -106,12 +104,3 @@ dashboard/sales_dashboard.pbix
 - Online Retail transactional dataset  
 - File format: CSV  
 - Contains invoice-level sales transactions  
-
----
-
-## Skills Demonstrated
-- Real-world data cleaning and preprocessing  
-- SQL-based business analysis  
-- End-to-end analytics workflow  
-- Dashboard-ready data preparation  
-- Professional project structuring  
